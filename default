@@ -1,0 +1,6 @@
+[dashboard]
+description = Most recent open and merged changes.
+[section "Open Changes"]
+query = status:open limit:15
+[section "Merged Changes"]
+query = status:merged limit:15
