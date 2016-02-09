@@ -3,10 +3,10 @@ title = Software Factory
 foreach = status:open label:Verified NOT label:Code-Review-2 NOT label:Workflow-1
 
 [section "Starred"]
-query = is%3Astarred
+query = is:Astarred
 
 [section "For me"]
-query = =reviewer:self
+query = reviewer:self
 
-[section "Relatev reviews"]
-query = project:software-factory+OR+project:cauth+OR+project:managesf+OR+project:pysflib+OR+project:config+OR+projects:SF+OR+project:rpmfactory
+[section "Related reviews"]
+query = project:software-factory OR project:cauth OR project:managesf OR project:pysflib OR project:config OR projects:SF OR project:rpmfactory
